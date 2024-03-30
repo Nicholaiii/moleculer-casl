@@ -2,8 +2,15 @@
   "version": "0.2",
   "ignorePaths": [],
   "dictionaryDefinitions": [],
-  "dictionaries": [],
-  "words": ["CASL"],
+  "dictionaries": [
+    "en-gb",
+    "typescript",
+    "node"
+  ],
+  "words": [
+    "CASL",
+    "Moleculer"
+  ],
   "ignoreWords": [],
   "import": []
 }
