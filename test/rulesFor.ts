@@ -3,6 +3,8 @@ import type { DefaultUser } from '../src/types'
 
 export function rulesFor(user: DefaultUser) {
   const { can, rules } = new AbilityBuilder(createMongoAbility)
-  can('read', 'Post', { user: user.id })
+
+  can('read', 'Post', undefined, { user: user.id })
+
   return rules
 }
