@@ -37,7 +37,7 @@ describe('ability provider', () => {
 
     expect(mixin).toBeDefined()
     expect(mixin).toHaveProperty('methods')
-    expect(mixin.methods).toHaveProperty('ability')
+    expect(mixin.methods).toHaveProperty('abilityFor')
   })
 
   it('allows calling the method as mixin', async () => {
@@ -48,14 +48,14 @@ describe('ability provider', () => {
 
     await broker.waitForServices(name)
 
-    const result = await svc.ability({ id: '123' })
+    const result = await svc.abilityFor({ id: '123' })
 
     expect(result).toBeDefined()
   })
 
   it('parses rules and returns an ability', async () => {
     const mixin = createCASLAbilityConsumer(providerName)
-    const result = await mixin.methods?.ability.bind({ broker })({ id: '123' })
+    const result = await mixin.methods?.abilityFor.bind({ broker })({ id: '123' })
 
     expect(result).toBeDefined()
     expect(result).instanceOf(PureAbility)

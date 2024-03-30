@@ -8,5 +8,5 @@ export type AnyRules = SubjectRawRule<any, any, any>[]
 export type AbilityConsumerMethods<
   TUser extends object = DefaultUser,
 > = {
-  ability: (user: TUser) => Promise<AnyMongoAbility>
+  abilityFor: (user: TUser) => Promise<AnyMongoAbility>
 }

@@ -9,7 +9,7 @@ export function createCASLAbilityConsumer<
 >(service = 'auth'): Partial<ServiceSchema & { methods: AbilityConsumerMethods<TUser> }> {
   return {
     methods: {
-      async ability(user: TUser) {
+      async abilityFor(user: TUser) {
         const rules: TRules = await this.broker.call<TRules, TUser>(`${service}.ability`, user)
         return createMongoAbility(rules)
       },
