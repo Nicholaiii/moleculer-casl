@@ -62,6 +62,7 @@
     "esno": "^4.0.0",
     "lint-staged": "^15.2.2",
     "moleculer": "^0.14.32",
+    "np": "^10.0.2",
     "pnpm": "^8.15.3",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
