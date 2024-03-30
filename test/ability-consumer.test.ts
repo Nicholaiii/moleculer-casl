@@ -25,7 +25,7 @@ describe('ability provider', () => {
     if (!broker.started)
       await broker.start()
 
-    await broker.waitForServices('provider')
+    await broker.waitForServices(providerName)
   })
 
   it('exported', () => {
