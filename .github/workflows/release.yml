@@ -20,12 +20,16 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
 
-      - name: Set node
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
 
-      - run: npx changelogithub
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Generate changelog.
+        run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
