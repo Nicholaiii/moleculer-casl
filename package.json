@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "packageManager": "pnpm@8.15.3",
   "description": "CASL authorisation for Moleculer with service-provided ability definition and caching",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Nicholai Nissen <nicholainissen@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Nicholaiii",
   "homepage": "https://github.com/Nicholaiii/moleculer-casl#readme",
