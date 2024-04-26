@@ -50,7 +50,7 @@ const ProductService: Service & AbilityConsumerMethods = {
 
 [npm-version-src]: https://img.shields.io/npm/v/moleculer-casl?style=flat&colorA=080f12&colorB=1fa669
 [npm-version-href]: https://npmjs.com/package/moleculer-casl
-[jsr-version-src]: https://img.shields.io/jsr/v/@nicholai/moleculer-casl?style=flat
+[jsr-version-src]: https://img.shields.io/jsr/v/@nicholai/moleculer-casl?style=flat&colorA=080f12&colorB=1fa669
 [jsr-version-href]: https://jsr.io/@nicholai/moleculer-casl
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/moleculer-casl?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=moleculer-casl
