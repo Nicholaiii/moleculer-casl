@@ -41,7 +41,6 @@
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
-    "postpublish": "jsr publish",
     "release": "np",
     "start": "esno src/index.ts",
     "test": "vitest",
