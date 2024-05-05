@@ -46,7 +46,7 @@ importers:
         version: 10.0.5(typescript@5.4.5)
       pnpm:
         specifier: ^8.15.7
-        version: 8.15.7
+        version: 8.15.8
       rimraf:
         specifier: ^5.0.5
         version: 5.0.5
@@ -323,6 +323,7 @@ packages:
   /@babel/highlight@7.24.5:
     resolution: {integrity: sha512-8lLmua6AVh/8SLJRRVD6V8p73Hir9w5mJrhE+IPpILG31KKlI9iz5zmBYKcWPS59qSfgP9RaSBQSHHE81WKuEw==}
     engines: {node: '>=6.9.0'}
+    requiresBuild: true
     dependencies:
       '@babel/helper-validator-identifier': 7.24.5
       chalk: 2.4.2
@@ -5419,8 +5420,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm@8.15.7:
-    resolution: {integrity: sha512-yFzSG22hAzIVaxyiqnnAph7nrS6wRTuIqymSienoypPmCRIyslwHy/YfbfdxKNnISeXJrG5EhU29IRxJ86Z63A==}
+  /pnpm@8.15.8:
+    resolution: {integrity: sha512-0aAp4aRHrZC8ls1YsPrUhtKZPVMYVjlve6vy2D6xgju4PFo9D8GPZ1stEDIdSesWH+zjb+gTSqWCPs0hX+7Tkg==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
