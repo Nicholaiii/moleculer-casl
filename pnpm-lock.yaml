@@ -46,7 +46,7 @@ importers:
         version: 10.0.5(typescript@5.4.5)
       pnpm:
         specifier: ^9.0.0
-        version: 9.0.6
+        version: 9.1.0
       rimraf:
         specifier: ^5.0.5
         version: 5.0.5
@@ -3018,8 +3018,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm@9.0.6:
-    resolution: {integrity: sha512-9thjEwlzIHy3ozbWtDmiQqJqyAaAd99TDWqGBpQZhT3B/+ZAKexZSpxQWjpBDRlkPIcKumd2Mw9c/dzxCpwWFw==}
+  pnpm@9.1.0:
+    resolution: {integrity: sha512-Z/WHmRapKT5c8FnCOFPVcb6vT3U8cH9AyyK+1fsVeMaq07bEEHzLO6CzW+AD62IaFkcayDbIe+tT+dVLtGEnJA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -6958,7 +6958,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm@9.0.6: {}
+  pnpm@9.1.0: {}
 
   postcss-calc@9.0.1(postcss@8.4.38):
     dependencies:
